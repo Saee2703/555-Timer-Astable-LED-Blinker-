@@ -6,15 +6,15 @@ NE555 timer IC configured in astable mode — designed and verified in LTspice X
 
 ## Circuit Specifications
 
-Component      Value      Purpose
-* U1           NE555      Timer IC
-* V1           12V        DCSupply voltage
-* R1           10kΩ       Charge resistor
-* R2           10kΩ       Discharge resistor
-* C1           47µF       Timing capacitor
-* C2           10nF       Noise filter on CV pin
-* R3           470Ω       LED current limiting resistor
-* D1           LED        Visual output indicator
+Component         Value           Purpose
+* U1              NE555           Timer IC
+* V1              12V             DCSupply voltage
+* R1              10kΩ            Charge resistor
+* R2              10kΩ            Discharge resistor
+* C1              47µF            Timing capacitor
+* C2              10nF            Noise filter on CV pin
+* R3              470Ω            LED current limiting resistor
+* D1              LED             Visual output indicator
 
 ## Frequency Calculation
 * f = 1.44 ÷ ((R1 + 2×R2) × C1)
@@ -25,13 +25,13 @@ Component      Value      Purpose
 Component values calculated from first principles to achieve target 1Hz output — demonstrating deliberate component selection over trial and error.
 
 ## Simulation Results
-Measurement        Value
-* Supply voltage     12V 
-* Output HIGH        ~12V 
-* Output LOW         ~0V
-* Waveform           Clean square wave
-* Frequency          ~1Hz confirmed
-* Signal quality     Sharp edges — no ringing
+Measurement             Value
+* Supply voltage         12V 
+* Output HIGH           ~12V 
+* Output LOW            ~0V
+* Waveform              Clean square wave
+* Frequency             ~1Hz confirmed
+* Signal quality        Sharp edges — no ringing
 
 ## Key Observations
 
