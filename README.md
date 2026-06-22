@@ -1,4 +1,4 @@
-# 555-Timer-Astable-LED-Blinker-
+# 555-Timer-Astable-LED-Blinker-LTspice
 
 # Overview
 
